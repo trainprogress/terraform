@@ -13,6 +13,5 @@ iptables -F
 
 #starting weblogic server
 sudo su
-cd /u01/app/oracle/config/domains/mydomain/startWebLogic.sh
-cd /home/ec2user/
+cd /home/centos/
  chef-client -o "recipe[webapplication]" --environment Java_application
