@@ -33,7 +33,7 @@ resource "aws_autoscaling_group" "scalegroup" {
     {
       key = "Name"
       value = "Java-asg"
-      propagate_at_laund = true
+      
     }
   ]
 }
