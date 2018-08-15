@@ -32,7 +32,7 @@ resource "aws_autoscaling_group" "scalegroup" {
   tags = [
     {
       key = "Name"
-      value = ""
+      value = "terraform-asg"
       propagate_at_laund = true
     }
   ]
