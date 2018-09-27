@@ -32,6 +32,7 @@ resource "aws_autoscaling_group" "scalegroup" {
   tags = [
     {
       key = "Name"
+	    
       value = "Java-asg"
       
     }
